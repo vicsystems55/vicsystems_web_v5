@@ -14,10 +14,10 @@ $(function(){
                 slidesPerView: 4
             },
             767: {
-                slidesPerView: 4
+                slidesPerView: 2
             },
             230: {
-                slidesPerView: 3
+                slidesPerView: 1
             }
         },
         pagination: {
