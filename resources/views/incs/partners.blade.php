@@ -38,7 +38,7 @@
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
-                                        <a href="#">
+                                        <a href="https://aljazirahnews.com/">
                                             <div class="partner-slide ">
                                                 <img src="image/client-2.png" alt="Client"
                                                     class="partner-logo img-fluid">
@@ -46,7 +46,7 @@
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
-                                        <a href="#">
+                                        <a href="https://poshtv.com">
                                             <div class="partner-slide ">
                                                 <img src="image/client-3.png" alt="Client"
                                                     class="partner-logo img-fluid">
@@ -54,7 +54,7 @@
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
-                                        <a href="#">
+                                        <a href="http://poshfm.com.ng">
                                             <div class="partner-slide ">
                                                 <img src="image/client-4.png" alt="Client"
                                                     class="partner-logo img-fluid">
@@ -63,7 +63,7 @@
                                     </div>
 
                                     <div class="swiper-slide">
-                                        <a href="#">
+                                        <a href="https://larydotrecruitment.uk/">
                                             <div class="partner-slide ">
                                                 <img src="image/client-5.png" alt="Client"
                                                     class="partner-logo img-fluid">
