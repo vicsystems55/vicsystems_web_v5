@@ -118,7 +118,7 @@ function initThemeSwitch() {
             $('body').addClass('lightmode');
             localStorage.setItem('lightmode', 'active');
 
-            siteLogos.attr('src', 'image/marko-logo-dark.png');
+            siteLogos.attr('src', 'image/marko-logo-dar.png');
 
             partnerLogos.each(function () {
                 const $img = $(this);
