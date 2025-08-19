@@ -272,8 +272,8 @@
                                         </div>
                                     </div>
                                     <div class="team-profile">
-                                        <h4>Jordan Lee</h4>
-                                        <span class="title">Head of Creative</span>
+                                        <h4>Asuquo Victor</h4>
+                                        <span class="title">CTO</span>
                                     </div>
                                 </div>
                             </div>
@@ -300,8 +300,8 @@
                                         </div>
                                     </div>
                                     <div class="team-profile">
-                                        <h4>Chloe Tan</h4>
-                                        <span class="title">Senior SEO Specialist</span>
+                                        <h4>Oluwatoyin Emmanuel</h4>
+                                        <span class="title">Business Development Manager</span>
                                     </div>
                                 </div>
                             </div>
@@ -328,8 +328,8 @@
                                         </div>
                                     </div>
                                     <div class="team-profile">
-                                        <h4>Daniel Cruz</h4>
-                                        <span class="title">Performance Marketing Lead</span>
+                                        <h4> Ezekiel Idiabo </h4>
+                                        <span class="title">Digital Marketing Specialist</span>
                                     </div>
                                 </div>
                             </div>
