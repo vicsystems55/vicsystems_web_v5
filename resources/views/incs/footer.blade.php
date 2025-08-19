@@ -26,12 +26,12 @@
                                 <div class="footer-quick-links">
                                     <h5>Quick Links</h5>
                                     <ul class="footer-list">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="portfolio.html">Portfolio</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="/about">About Us</a></li>
+                                        <li><a href="/services">Services</a></li>
+                                        <li><a href="/portfolio">Portfolio</a></li>
+                                        <li><a href="/blog">Blog</a></li>
+                                        <li><a href="/contact">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -41,12 +41,12 @@
                                 <div class="footer-services-container">
                                     <h5>Our Services</h5>
                                     <ul class="footer-list">
-                                        <li><a href="single_services.html">Social Media Management</a></li>
-                                        <li><a href="single_services.html">Web & Mobile App Development</a></li>
-                                        <li><a href="single_services.html">IT Consultancy & Training</a></li>
-                                        <li><a href="single_services.html">Custom Electronics</a></li>
-                                        <li><a href="single_services.html">AI-Powered Creative Art</a></li>
-                                        <li><a href="single_services.html">Digital Marketing & Strategy</a></li>
+                                        <li><a href="/services">Social Media Management</a></li>
+                                        <li><a href="/services">Web & Mobile App Development</a></li>
+                                        <li><a href="/services">IT Consultancy & Training</a></li>
+                                        <li><a href="/services">Custom Electronics</a></li>
+                                        <li><a href="/services">AI-Powered Creative Art</a></li>
+                                        <li><a href="/services">Digital Marketing & Strategy</a></li>
                                     </ul>
                                 </div>
                             </div>

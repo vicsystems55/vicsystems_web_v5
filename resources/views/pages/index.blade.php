@@ -68,8 +68,6 @@
             </div>
         </div>
 
-
-
         <!-- Section Expertise -->
         <div class="section">
             <div class="hero-container">
@@ -288,7 +286,6 @@
             </div>
         </div>
 
-
         <!-- Section Guide -->
         <div class="section-guide">
             <div class="guide-banner">
@@ -311,7 +308,6 @@
                 </div>
             </div>
         </div>
-
 
         <!-- Section Service -->
         <div class="section">
@@ -370,7 +366,6 @@
                 </div>
             </div>
         </div>
-
 
         <!-- Section Case Studies -->
         <div class="section p-0 d-none">
@@ -558,7 +553,7 @@
         </div>
 
         <!-- Section Testimonial -->
-        <div class="section">
+        <div class="section pb-2">
             <div class="hero-container">
                 <div class="d-flex flex-column gspace-5">
                     <div class="d-flex flex-column flex-xl-row gspace-5">
@@ -761,9 +756,104 @@
         </div>
 
 
+<!-- Section FAQs -->
+<div class="section">
+  <div class="hero-container">
+    <div class="row row-cols-xl-2 row-cols-1 grid-spacer-5">
+      <!-- FAQ Title -->
+      <div class="col col-xl-5">
+        <div class="faq-title-container">
+          <div class="sub-heading">
+            <i class="fa-regular fa-circle-dot"></i>
+            <span>Frequently Asked Questions</span>
+          </div>
+          <h2 class="title-heading">Got Questions? We've Got Answers.</h2>
+          <p>Quick answers to common questions about our services.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Accordion -->
+      <div class="col col-xl-7">
+        <div class="d-flex flex-column">
+          <div class="accordion" id="faqAccordion1">
+
+            <!-- FAQ 1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                  What services do you provide?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion1">
+                <div class="accordion-body">
+                    <div class="accordion-spacer"></div>
+                  <p>We provide digital solutions such as branding, social media management, content strategy, paid ads, and analytics-driven campaigns.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false"
+                  aria-controls="faq2">
+                  How soon can I expect results?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
+                <div class="accordion-body">
+                      <div class="accordion-spacer"></div>
+                  <p>Paid ads bring faster results, while content and SEO typically show steady growth within 3–6 months.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false"
+                  aria-controls="faq3">
+                  Do you work with businesses of any size?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
+                <div class="accordion-body">
+                      <div class="accordion-spacer"></div>
+                  <p>Yes! We partner with startups, SMEs, and large enterprises across multiple industries.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false"
+                  aria-controls="faq4">
+                  Can I request a custom package?
+                </button>
+              </h2>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
+                <div class="accordion-body">
+                      <div class="accordion-spacer"></div>
+                  <p>Absolutely. We customize solutions based on your goals, budget, and timeline.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- End FAQ Accordion -->
+
+    </div>
+  </div>
+</div>
 
 
-        @include('incs.our_process')
 
 
         <!-- Section Pricing -->
@@ -1049,5 +1139,6 @@
                 </div>
             </div>
         </div>
+
     </div>
 @endsection

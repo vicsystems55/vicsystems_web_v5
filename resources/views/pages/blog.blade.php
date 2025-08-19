@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <!-- Section Banner -->
+     <!-- Section Main Content -->
+    <main>
+        <!-- Section Banner -->
         <div class="section-banner">
             <div class="banner-layout-wrapper">
                 <div class="banner-layout">
@@ -87,9 +89,12 @@
                                 </div>
                             </div>
                         </div>
+
+                          
                     </div>
                 </div>
             </div>
         </div>
+    </main>
 
 @endsection
