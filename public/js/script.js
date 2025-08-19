@@ -124,7 +124,7 @@ function initThemeSwitch() {
                 const $img = $(this);
                 const src = $img.attr('src');
                 if (!src.includes('-dark')) {
-                    $img.attr('src', src.replace('.png', '-dark.html'));
+                    $img.attr('src', src.replace('.png', '.png'));
                 }
             });
         } else {
@@ -136,7 +136,7 @@ function initThemeSwitch() {
             partnerLogos.each(function () {
                 const $img = $(this);
                 const src = $img.attr('src');
-                $img.attr('src', src.replace('-dark.html', '.png'));
+                $img.attr('src', src.replace('.png', '.png'));
             });
         }
     };
