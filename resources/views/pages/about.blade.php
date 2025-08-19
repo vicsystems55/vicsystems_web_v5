@@ -328,7 +328,7 @@
                                         </div>
                                     </div>
                                     <div class="team-profile">
-                                        <h4> Ezekiel Idiabo </h4>
+                                        <h4> Ezekiel Idabor </h4>
                                         <span class="title">Digital Marketing Specialist</span>
                                     </div>
                                 </div>
