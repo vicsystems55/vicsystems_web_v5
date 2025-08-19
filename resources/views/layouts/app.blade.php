@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="icon" href="{{ asset('image/favicon.ico') }}">
+
+    @yield('styles')
 </head>
 
 <body>
@@ -87,9 +89,9 @@
                         </ul>
                     </li> --}}
 
-                         <li>
+                         {{-- <li>
                         <a class="{{ request()->routeIs('blog') ? 'active' : '' }}" href="{{ route('blog') }}">Blog</a>
-                    </li>
+                    </li> --}}
 
                     {{-- <li class="sidebar-dropdown">
                         <div class="dropdown-header">
@@ -127,6 +129,8 @@
 
     @include('incs.footer')
 
+    @yield('script')
+
     <script src="{{ asset('js/vendor/jquery.min.js') }}"></script>
     <script src="{{ asset('js/vendor/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('js/vendor/swiper-bundle.min.js') }}"></script>
@@ -135,6 +139,7 @@
     <script src="{{ asset('js/submit-form.js') }}"></script>
     <script src="{{ asset('js/vendor/isotope.pkgd.min.js') }}"></script>
     <script src="{{ asset('js/video_embedded.js') }}"></script>
+
 
 </body>
 

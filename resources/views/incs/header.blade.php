@@ -28,10 +28,10 @@
                                     href="{{ route('services') }}">Services</a>
                             </li>
 
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                                 <a class="nav-link {{ request()->routeIs('blog') ? 'active' : '' }}"
                                     href="{{ route('blog') }}">Blog</a>
-                            </li>
+                            </li> --}}
                             <li class="nav-item dropdown d-none">
                                 <a class="nav-link dropdown-toggle {{ request()->routeIs('blog') || request()->routeIs('post') ? 'active' : '' }}"
                                     href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
