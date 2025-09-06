@@ -10,3 +10,6 @@ Route::get('/services', [PageController::class, 'services'])->name('services');
 Route::get('/blog', [PageController::class, 'blog'])->name('blog');
 Route::get('/post', [PageController::class, 'post'])->name('post');
 Route::get('/portfolio', [PageController::class, 'portfolio'])->name('portfolio');
+
+Route::get('/liftmeup/privacy-policy', [PageController::class, 'lmu_privacy'])->name('lmu_privacy');
+

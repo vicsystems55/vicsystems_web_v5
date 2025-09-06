@@ -68,4 +68,12 @@ class PageController extends Controller
             'meta_description' => 'See Vicsystems Technologies Ltd. portfolio: projects in ICT, app development, renewable energy, healthcare, engineering, media, and creative industries.'
         ]);
     }
+
+    public function lmu_privacy()
+    {
+        return view('pages.lmu_privacy', [
+            'meta_title' => 'Privacy Policy | Lift Me Up Initiative',
+            'meta_description' => 'Read the privacy policy of the Lift Me Up Initiative by Vicsystems Technologies Ltd., outlining data collection, usage, and protection practices.'
+        ]);
+    }
 }
